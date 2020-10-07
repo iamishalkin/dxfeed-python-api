@@ -4,7 +4,7 @@
 
 name: Test package
 
-on:
+on: [workflow_dispatch]
   push:
     branches:
       - '*'
